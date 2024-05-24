@@ -22,9 +22,9 @@ veggy <- cabbages
  
 Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
-%H_0$:  There is no difference in the aveage Vitamin C content of cabbages based on cultivation method
+$H_0$:  There is no difference in the aveage Vitamin C content of cabbages based on cultivation method
 
-$H_A%: There is a difference in the blah blah blah....
+$H_A$: There is a difference in the blah blah blah....
 
 # Methods
 
@@ -32,7 +32,7 @@ $H_A%: There is a difference in the blah blah blah....
 
 vitamin C is numerical, cultivation is categorical 
 
-numerical~categoical  so we use the Numeical~Cat helper file
+numerical~catagorical  so we use the Numeical~Cat helper file
 
 
 # Results
@@ -67,9 +67,11 @@ The numericalsummary show....
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-
+The p-value is ......
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
